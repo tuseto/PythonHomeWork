@@ -1,21 +1,24 @@
-perf_numbers = int(input("enter number: "))
-
+n = int(input("enter number: "))
 counter = 1
-
 number = 1
-divider = 0
+devider = 1
+result = 0
 
-sum_dividers = 0
-
-
-while counter <= perf_numbers:
-        while divider < number:
-            if number % divider == 0:
-                sum_dividers += divider
-                if sum_dividers == number:
-                    counter += 1
-                    print(number)
-            divider += 1
-number += 1
+while counter <= n:
+    while True:
+        number += 1
+        devider = 1
+        result = 0
+        while devider < number:
+            if number % devider == 0:
+                result += devider
+            devider += 1    
+        if result == number:
+            counter += 1
+            print(number)
+            break
     
+    
+    
+
 
