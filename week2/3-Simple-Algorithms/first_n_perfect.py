@@ -19,9 +19,6 @@ while counter <= n:
             break
     
     
-<<<<<<< HEAD
-=======
     
->>>>>>> bc47b4ee840a28662cd717c01ffdfc44881442f1
 
 
