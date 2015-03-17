@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 number = int(input("Enter number: "))
 
 first_number = number % 10
@@ -30,11 +31,22 @@ if second_number < first_number > third_number:
     else:
         print(first_number*100 + second_number*10 + third_number)
 
+=======
+a = int(input("Enter number a: "))
+b = int(input("Enter number b: "))
+c = int(input("Enter number c: "))
+
+number = a*100 + b*10 + c
+print(number)
+>>>>>>> bc47b4ee840a28662cd717c01ffdfc44881442f1
     
 
 
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> bc47b4ee840a28662cd717c01ffdfc44881442f1

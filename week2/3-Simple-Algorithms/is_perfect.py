@@ -9,6 +9,9 @@ if result == n:
     print("Number is perfect")
 else:
     print("Number is not perfect")
+<<<<<<< HEAD
     
 
 
+=======
+>>>>>>> bc47b4ee840a28662cd717c01ffdfc44881442f1
