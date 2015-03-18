@@ -19,6 +19,5 @@ while counter <= n:
             break
     
     
-    
 
 

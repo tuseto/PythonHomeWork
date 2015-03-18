@@ -9,3 +9,6 @@ if result == n:
     print("Number is perfect")
 else:
     print("Number is not perfect")
+    
+
+
