@@ -1,8 +1,6 @@
 n = int(input("Enter number: "))
 counter = 2
 prime = True
-a = 0
-b = 0
 if n != 1:
     while counter < n:
         if n % counter != 0:
@@ -17,8 +15,4 @@ if prime:
     print(str(n) + " is prime")
 else:
     print("is not prime")
-        
 
-            
-    
-    
